@@ -17,7 +17,7 @@ CREATE TABLE weapons (
     name VARCHAR(50) NOT NULL UNIQUE COMMENT '武器の種類'
 );
 
--- 配置位置 (ENUM利用)
+-- 配置位置テーブル
 CREATE TABLE positions (
     name ENUM('前衛', '中衛', '後衛') PRIMARY KEY COMMENT '配置: 前衛, 中衛, 後衛'
 );
